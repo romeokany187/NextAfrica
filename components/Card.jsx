@@ -4,7 +4,7 @@ import React from 'react'
 
 const Card = ({img , head , sub, href , alt}) => {
   return (
-    <div className="p-6 flex flex-col gap-3 text-center justify-center items-center w-[15rem] bg-base-first
+    <div className="p-6 flex flex-col gap-3 text-center justify-center items-center w-[15rem]
     rounded-xl shadow-md">
         <Link href={href} className="">
             <Image src={img} width={90} height={90} alt={alt} className="rounded-full"></Image>

@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="z-50">
         <Image src='/images/logo-suite-nav@1.5x.png' alt="logo" width={150} height={100}></Image>
       </div>
-      <div className="lg:flex lg:gap-8 hidden text-sm">
+      <div className="lg:flex justify-center items-center lg:gap-8 hidden text-sm " >
         <Link href="/">Accueil</Link>
         <Link href="/athlete">Athlètes</Link>
         <Link href="/club">Clubs</Link>

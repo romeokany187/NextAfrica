@@ -15,7 +15,7 @@ import "swiper/css/autoplay";
 
 const Offers = () => {
   return (
-    <div className="p-6 mt-14">
+    <div className="lg:p-6 p-4 mt-14">
       <div className="flex flex-col gap-4 justify-center items-center text-center">
         <p className="text-xl text-green-primary font-medium">
           CE QUE NOUS FAISONS
@@ -32,11 +32,12 @@ const Offers = () => {
           consequatur. Veritatis, voluptates? Magnam.
         </p>
       </div>
-      <div className="p-8 px-[3rem] ">
+      <div className="py-8 px-[5rem]">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={50}
-          slidesPerView={4}
+          spaceBetween={40}
+          slidesPerView={3}
+          centeredSlides={true}
           loop={true}
           autoplay={{
             delay: 3000,
@@ -51,16 +52,16 @@ const Offers = () => {
             // when window width is >= 640px
             500: {
               slidesPerView: 1,
-              spaceBetween: 30,
+              spaceBetween: 10,
             },
             640: {
-                slidesPerView: 1,
+                slidesPerView: 2,
                 spaceBetween: 30,
             },
             // when window width is >= 768px
             768: {
                 slidesPerView: 2,
-                spaceBetween: 40,
+                spaceBetween: 30,
             },
             // when window width is >= 1024px
             1024: {
@@ -68,11 +69,12 @@ const Offers = () => {
                 spaceBetween: 50,
             },
         }}
-          
+          style={{ marginBottom: "20px" }}
+          className="flex justify-center items-center my-swiper"
         >
           <SwiperSlide>
             <Card
-              img="/images/tennis.avif"
+              img="/images/recrutement.jpg"
               href="/recrutements"
               head="Recrutemnts"
               sub="
@@ -84,17 +86,18 @@ const Offers = () => {
             <Card
               img="/images/tennis.avif"
               href="/recrutements"
-              head="Recrutemnts"
+              head="Recruteurs"
               sub="
                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ullam quas, voluptatum tempore"
               alt="image recrutment"
             />
           </SwiperSlide>
+          
           <SwiperSlide>
             <Card
-              img="/images/tennis.avif"
+              img="/images/entraineurs.webp"
               href="/recrutements"
-              head="Recrutemnts"
+              head="Entraineurs"
               sub="
                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum ullam quas, voluptatum tempore"
               alt="image recrutment"

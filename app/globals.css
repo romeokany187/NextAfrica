@@ -5,3 +5,4 @@
 .parent > :not(:first-child){
     @apply ml-[-10px];
 }
+
