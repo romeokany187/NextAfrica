@@ -32,7 +32,7 @@ const Offers = () => {
           consequatur. Veritatis, voluptates? Magnam.
         </p>
       </div>
-      <div className="py-8 px-[5rem]">
+      <div className="py-8 xlg:pl-[10rem] pl-[5rem] ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={40}
@@ -70,7 +70,7 @@ const Offers = () => {
             },
         }}
           style={{ marginBottom: "20px" }}
-          className="flex justify-center items-center my-swiper"
+          className="flex justify-center  items-center my-swiper"
         >
           <SwiperSlide>
             <Card
@@ -115,6 +115,7 @@ const Offers = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      
     </div>
   );
 };
