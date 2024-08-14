@@ -1,5 +1,5 @@
 "use client"
-import { motion , useViewportScroll , useTransform } from "framer-motion";
+import { motion , useViewportScroll , useTransform , AnimatePresence } from "framer-motion";
 
 import Image from "next/image";
 import Hero from "@/components/Hero";
@@ -9,7 +9,7 @@ import About from "@/components/About";
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+  visible: { opacity: 1, y: 0, transition: { duration: 1.5} },
 };
 
 export default function Home() {
@@ -25,7 +25,8 @@ export default function Home() {
 
 
   return (
-    <main>
+    <main className="px-6">
+      <AnimatePresence>
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -51,6 +52,8 @@ export default function Home() {
       >
         <Offers />
       </motion.div>
+      </AnimatePresence>
+      
     </main>
   );
 }

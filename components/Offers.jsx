@@ -32,11 +32,10 @@ const Offers = () => {
           consequatur. Veritatis, voluptates? Magnam.
         </p>
       </div>
-      <div className="py-8 xlg:pl-[10rem] pl-[5rem] ">
+      <div className="py-8  pl-[3rem] flex justify-center lg:bg-red-500 ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={40}
-          slidesPerView={3}
+          spaceBetween={10}
           centeredSlides={true}
           loop={true}
           autoplay={{
@@ -52,27 +51,31 @@ const Offers = () => {
             // when window width is >= 640px
             500: {
               slidesPerView: 1,
-              spaceBetween: 10,
+              spaceBetween: 0,
             },
             640: {
                 slidesPerView: 2,
-                spaceBetween: 30,
+                spaceBetween: 0,
             },
             // when window width is >= 768px
             768: {
                 slidesPerView: 2,
-                spaceBetween: 30,
+                spaceBetween: 0,
             },
             // when window width is >= 1024px
             1024: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            1244: {
                 slidesPerView: 3,
-                spaceBetween: 50,
+                spaceBetween: 10,
             },
         }}
-          style={{ marginBottom: "20px" }}
-          className="flex justify-center  items-center my-swiper"
+          style={{with:"100%", marginBottom: "20px" }}
+          className="w-full xl"
         >
-          <SwiperSlide>
+          <SwiperSlide className="lg:ml-0 ml-[4rem] ">
             <Card
               img="/images/recrutement.jpg"
               href="/recrutements"
