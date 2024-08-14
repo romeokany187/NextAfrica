@@ -75,7 +75,7 @@ const Offers = () => {
           style={{with:"100%", marginBottom: "20px" }}
           className="w-full xl"
         >
-          <SwiperSlide className="lg:ml-0 ml-[4rem] ">
+          <SwiperSlide className="lg:ml-0 ml-[2rem] ">
             <Card
               img="/images/recrutement.jpg"
               href="/recrutements"
