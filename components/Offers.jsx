@@ -32,7 +32,7 @@ const Offers = () => {
           consequatur. Veritatis, voluptates? Magnam.
         </p>
       </div>
-      <div className="py-8  pl-[3rem] flex justify-center lg:bg-red-500 ">
+      <div className="py-8  pl-[3rem] flex justify-center ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
           spaceBetween={10}
