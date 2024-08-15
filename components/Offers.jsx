@@ -15,7 +15,7 @@ import "swiper/css/autoplay";
 
 const Offers = () => {
   return (
-    <div className="lg:p-6 p-4 mt-14">
+    <div className="lg:p-6 mt-14">
       <div className="flex flex-col gap-4 justify-center items-center text-center">
         <p className="text-xl text-green-primary font-medium">
           CE QUE NOUS FAISONS
@@ -32,10 +32,10 @@ const Offers = () => {
           consequatur. Veritatis, voluptates? Magnam.
         </p>
       </div>
-      <div className="py-8  pl-[3rem] flex justify-center ">
+      <div className="py-8 flex justify-center ">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-          spaceBetween={10}
+          spaceBetween={0}
           centeredSlides={true}
           loop={true}
           autoplay={{
@@ -65,17 +65,17 @@ const Offers = () => {
             // when window width is >= 1024px
             1024: {
                 slidesPerView: 2,
-                spaceBetween: 10,
+                spaceBetween: 0,
             },
             1244: {
                 slidesPerView: 3,
-                spaceBetween: 10,
+                spaceBetween: 0,
             },
         }}
           style={{with:"100%", marginBottom: "20px" }}
-          className="w-full xl"
+          className="w-full ml-auto mr-auto justify-center"
         >
-          <SwiperSlide className="lg:ml-[4rem] ml-[0.5rem] ">
+          <SwiperSlide className="lg:ml-[4rem] ml-[3.5rem] ">
             <Card
               img="/images/recrutement.jpg"
               href="/recrutements"
@@ -85,7 +85,7 @@ const Offers = () => {
               alt="image recrutment"
             />
           </SwiperSlide>
-          <SwiperSlide className="ml-[1rem] ">
+          <SwiperSlide className="">
             <Card
               img="/images/tennis.avif"
               href="/recrutements"
@@ -96,7 +96,7 @@ const Offers = () => {
             />
           </SwiperSlide>
           
-          <SwiperSlide className="ml-[1rem]">
+          <SwiperSlide className="">
             <Card
               img="/images/entraineurs.webp"
               href="/recrutements"
@@ -106,7 +106,7 @@ const Offers = () => {
               alt="image recrutment"
             />
           </SwiperSlide>
-          <SwiperSlide className="ml-[1rem]">
+          <SwiperSlide className="">
             <Card
               img="/images/tennis.avif"
               href="/recrutements"
