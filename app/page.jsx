@@ -24,7 +24,7 @@ export default function Home() {
   const AboutInView = useInView(AboutRef, { once: false });
 
   return (
-    <main className="px-6">
+    <main className="">
       <motion.div
         ref={heroRef}
         initial="hidden"

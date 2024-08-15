@@ -85,7 +85,7 @@ const Offers = () => {
               alt="image recrutment"
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:ml-[4rem] ml-[2rem] ">
+          <SwiperSlide className="ml-[1rem] ">
             <Card
               img="/images/tennis.avif"
               href="/recrutements"
@@ -96,7 +96,7 @@ const Offers = () => {
             />
           </SwiperSlide>
           
-          <SwiperSlide className="lg:ml-[4rem] ml-[2rem] ">
+          <SwiperSlide className="ml-[1rem]">
             <Card
               img="/images/entraineurs.webp"
               href="/recrutements"
@@ -106,7 +106,7 @@ const Offers = () => {
               alt="image recrutment"
             />
           </SwiperSlide>
-          <SwiperSlide className="lg:ml-[4rem] ml-[2rem] ">
+          <SwiperSlide className="ml-[1rem]">
             <Card
               img="/images/tennis.avif"
               href="/recrutements"
