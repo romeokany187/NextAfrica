@@ -4,17 +4,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex justify-between items-center gap-[2rem] px-8 mt-8">
+    <div className="flex lg:flex-row flex-col justify-between items-center gap-[2rem] px-8 mt-8">
       <div className="flex flex-col gap-5  ">
         <p className="text-green-primary text-xl">Apropos de nous</p>
-        <div className="text-4xl font-extrabold">
+        <div className="xl:text-4xl text-2xl font-extrabold">
           Une entreprise th t's bluiding ahealtier world
         </div>
         <p className="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
           vitae est quam minima cum delectus qui vel fuga quae laboriosam? Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Laudantium vitae
-          est quam minima cum delectus qui vel fuga quae laboriosam?
+          ipsum dolor sit amet consectetur adipisicing elit. 
         </p>
         <div className="flex justify-start items-center gap-6">
           <div className="flex flex-col">
@@ -54,7 +53,7 @@ const About = () => {
           height={2000}
           className="object-fill w-full h-full rounded-3xl border "
         ></Image>
-        <div className="flex flex-col justify-center items-center gap-4 absolute top-[85%]  left-[10%] p-8 bg-white shadow-md ">
+        <div className="hidden lg:flex flex-col justify-center items-center gap-4 absolute top-[75%]  left-[15%] p-8 rounded-lg bg-white shadow-md ">
           <div className="h-[8vh] w-[4vw]  bg-black-secondary rounded-full p-2">
             <Image
               src="/images/logo nav@3x.png"
@@ -63,7 +62,10 @@ const About = () => {
               className="rounded-full w-full h-full object-contain"
             ></Image>
           </div>
-          <p className="text-xs text-center text-black-primary">Transformez <br className="mb-2" /> vos talents <br /> avec NextAfrica</p>
+          <p className="text-xs text-center text-black-primary">
+            Transformez <br className="mb-2" /> vos talents <br /> avec
+            NextAfrica
+          </p>
         </div>
       </div>
     </div>

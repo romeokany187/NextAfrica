@@ -21,7 +21,7 @@ export default function Home() {
   const heroInView = useInView(heroRef, { once: false });
   const partenaireInView = useInView(partenaireRef, { once: false });
   const offersInView = useInView(offersRef, { once: false });
-  const AboutInView = useInView(offersRef, { once: false });
+  const AboutInView = useInView(AboutRef, { once: false });
 
   return (
     <main className="px-6">
