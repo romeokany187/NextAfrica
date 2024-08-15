@@ -16,10 +16,12 @@ export default function Home() {
   const heroRef = useRef(null);
   const partenaireRef = useRef(null);
   const offersRef = useRef(null);
+  const AboutRef = useRef(null);
 
   const heroInView = useInView(heroRef, { once: false });
   const partenaireInView = useInView(partenaireRef, { once: false });
   const offersInView = useInView(offersRef, { once: false });
+  const AboutInView = useInView(offersRef, { once: false });
 
   return (
     <main className="px-6">
@@ -48,6 +50,14 @@ export default function Home() {
         variants={sectionVariants}
       >
         <Offers />
+      </motion.div>
+      <motion.div
+        ref={AboutRef}
+        initial="hidden"
+        animate={AboutInView ? "visible" : "hidden"}
+        variants={sectionVariants}
+      >
+        <About />
       </motion.div>
     </main>
   );
