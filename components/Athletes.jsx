@@ -4,21 +4,21 @@ import React from "react";
 const Athletes = () => {
   return (
     <div
-      className="flex lg:flex-row flex-col bg-teal-700 justify-center lg:gap-9 gap-2 items-center pr-5 pb-5 text-white
-     lg:h-[62vh] h-auto mt-[5rem] "
+      className="flex lg:flex-row flex-col bg-teal-700 justify-center lg:gap-9 gap-2 items-center lg:pr-5 pr-0 pb-5 text-white
+     lg:h-auto h-auto mt-[5rem] "
     >
       <Image
         src="/images/nos attletes@1.25x.png"
         width={700}
         height={700}
-        className="hidden lg:block"
+        className="hidden lg:block w-full h-full"
       ></Image>
 
       <Image
         src="/images/session@2x.PNG"
         width={700}
         height={500}
-        className="lg:hidden block"
+        className="lg:hidden block w-full"
       ></Image>
 
       <div className=" block  px-6 space-y-4">
