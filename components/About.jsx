@@ -4,7 +4,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex lg:flex-row flex-col justify-between items-center gap-[2rem] mt-8 mb-20">
+    <div className="flex lg:flex-row flex-col justify-between items-center gap-[2rem] mt-8 lg:mb-20 mb-12">
       <div className="flex flex-col gap-5  ">
         <p className="text-green-primary text-xl">Apropos de nous</p>
         <div className="xl:text-4xl text-2xl font-extrabold">
