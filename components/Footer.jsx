@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="lg:flex justify-between grid grid-cols-2 gap-8 py-5 px-8">
+    <div className="lg:flex justify-between grid grid-cols-2 gap-8 grid-flow-row  py-5 px-8">
       <div className="flex flex-col  items-start space-y-4">
         <Image
           src="/images/logo-suite-nav@1.5x.png"
@@ -42,7 +42,7 @@ const Footer = () => {
           <p>Accessibilités</p>
         </div>
       </div>
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col space-y-4 col-span-full">
         <p className="text-sm  font-bold">NOS MEDIAS SOCIAUX</p>
         <div className="flex flex-col space-y-2  justify-between items-start text-sm">
           <div className="flex gap-3">
