@@ -3,8 +3,8 @@ import React from "react";
 
 const Athletes = () => {
   return (
-    <div className="flex lg:flex-row flex-col bg-teal-700 justify-center gap-9 items-center pr-5 text-white
-     lg:h-[60vh] h-[100vh] mt-8 ">
+    <div className="flex lg:flex-row flex-col bg-teal-700 justify-center gap-9 items-center pr-5 pb-5 text-white
+     lg:h-[60vh] h-auto mt-8 ">
       <Image
         src="/images/nos attletes@1.25x.png"
         width={700}
