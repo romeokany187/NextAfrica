@@ -4,9 +4,9 @@ import React from "react";
 const Athletes = () => {
   return (
     <div className="flex lg:flex-row flex-col bg-teal-700 justify-center gap-9 items-center pr-5 pb-5 text-white
-     lg:h-[60vh] h-auto mt-8 ">
+     lg:h-[auto] h-auto mt-[5rem] ">
       <Image
-        src="/images/nos attletes@1.25x.png"
+        src="/images/session@2x.PNG"
         width={700}
         height={500}
       ></Image>
