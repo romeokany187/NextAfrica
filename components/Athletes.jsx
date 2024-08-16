@@ -4,7 +4,7 @@ import React from "react";
 const Athletes = () => {
   return (
     <div
-      className="flex lg:flex-row flex-col bg-teal-700 justify-center lg:gap-9 gap-2 items-center lg:pr-5 pr-0 text-white
+      className="flex lg:flex-row flex-col bg-teal-700 justify-center lg:gap-9 gap-2 items-center lg:pr-5 pr-0 lg:pb-0 pb-5 text-white
      lg:h-auto h-auto mt-[5rem] "
     >
       <Image
