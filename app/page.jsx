@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Partenaire from "@/components/Partenaire";
 import Offers from "@/components/Offers";
 import About from "@/components/About";
+import Agenda from "@/components/Agenda";
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -17,11 +18,13 @@ export default function Home() {
   const partenaireRef = useRef(null);
   const offersRef = useRef(null);
   const AboutRef = useRef(null);
+  const agendaRef = useRef(null);
 
   const heroInView = useInView(heroRef, { once: false });
   const partenaireInView = useInView(partenaireRef, { once: false });
   const offersInView = useInView(offersRef, { once: false });
   const AboutInView = useInView(AboutRef, { once: false });
+  const agendaInView = useInView(agendaRef, { once: false });
 
   return (
     <main className="px-6">
@@ -58,6 +61,14 @@ export default function Home() {
         variants={sectionVariants}
       >
         <About />
+      </motion.div>
+      <motion.div
+        ref={agendaRef}
+        initial="hidden"
+        animate={agendaInView ? "visible" : "hidden"}
+        variants={sectionVariants}
+      >
+        <Agenda />
       </motion.div>
     </main>
   );

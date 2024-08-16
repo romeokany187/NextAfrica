@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between py-2 lg:px-8 px-2 top-0 sticky bg-white z-50">
       <div className="z-50">
-        <Image src='/images/logo-suite-nav@1.5x.png' alt="logo" width={150} height={100}></Image>
+        <Image src='/images/icone for web@2x.png' alt="logo" width={60} height={70}></Image>
       </div>
       <div className="lg:flex justify-center items-center lg:gap-8 hidden text-sm " >
         <Link href="/">Accueil</Link>
