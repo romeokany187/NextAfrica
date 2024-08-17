@@ -7,7 +7,7 @@ import ButtonMenu from './ButtonMenu'
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between py-2 lg:px-8 px-6 top-0 sticky bg-white z-50">
+    <div className="flex justify-between py-2 xl:px-[10rem] lg:px-[5rem] md:px-[2rem] px-6 top-0 sticky bg-white z-50">
       <div className="z-50">
         <Image src='/images/logomodifier.png' alt="logo" width={60} height={70}></Image>
       </div>

@@ -25,7 +25,7 @@ const LanguageSwitcher = () => {
                 <img src={getFlagSrc(language)} alt="Language Flag" className="object-fill w-full h-full rounded-[50%]" />
             </div>
             <select value={language} onChange={handleLanguageChange} className="
-             text-[1rem]   border-none rounded  py-1 outline-none font-bold">
+             text-sm   border-none rounded  py-1 outline-none font-bold">
                 <option value="en">En</option>
                 <option value="fr">Fr</option>
             </select>

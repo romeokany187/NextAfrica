@@ -19,7 +19,7 @@ const ButtonMenu = () => {
                 onClick={toggleMenu}
                 className="flex gap-4 items-center justify-center p-2  text-gray-800 T rounded-md z-50"
             >
-                <small className="font-bold">MENU</small>
+                <p className="font-bold text-xs">MENU</p>
                 <CSSTransition
                     in={menuOpen}
                     timeout={500}

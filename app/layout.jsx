@@ -13,15 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className}    relative`}>
-        <div className="xl:px-[10rem] lg:px-[5rem] md:px-[2rem] px-0">
-          <Navbar />
-        </div>
+      <body className={`${montserrat.className}  relative`}>
+        <Navbar />
         {children}
         <div className="">
-        <div className="xl:px-[3rem] lg:px-[3rem] md:px-[2rem] px-0">
-          <Footer />
-        </div>
+          <div className="xl:px-[3rem] lg:px-[3rem] md:px-[2rem] px-0">
+            <Footer />
+          </div>
         </div>
       </body>
     </html>
