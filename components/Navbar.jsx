@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="lg:flex justify-center items-center lg:gap-8 hidden text-sm " >
         <Link href="/">Accueil</Link>
         <Link href="/athlete">Athlètes</Link>
-        <Link href="/club">Clubs</Link>
+        <Link href="/contact">Clubs</Link>
         <Link href="/count">Compte</Link>
       </div>
       <div className="lg:hidden flex">
