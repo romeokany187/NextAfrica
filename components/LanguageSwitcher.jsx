@@ -19,13 +19,13 @@ const LanguageSwitcher = () => {
     };
 
     return (
-        <div className="flex items-center gap-2 px-1 text-gray-900 rounded-md z-50">
+        <div className="flex items-center gap-2 px-1 text-gray-900 bg-gray-200 rounded-md z-50">
             <Image src="/images/language.svg" alt="Language Flag" width={17} height={24} />
             <div className="w-[1rem] h-[1rem]">
                 <img src={getFlagSrc(language)} alt="Language Flag" className="object-fill w-full h-full rounded-[50%]" />
             </div>
             <select value={language} onChange={handleLanguageChange} className="
-             text-sm   border-none rounded  py-1 outline-none font-bold">
+             text-sm   border-none rounded  py-1 outline-none font-bold bg-gray-200">
                 <option value="en">En</option>
                 <option value="fr">Fr</option>
             </select>

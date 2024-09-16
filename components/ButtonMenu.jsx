@@ -17,7 +17,7 @@ const ButtonMenu = () => {
         <>
             <button
                 onClick={toggleMenu}
-                className="flex gap-4 items-center justify-center p-2  text-gray-800 T rounded-md z-50"
+                className="flex gap-4 items-center justify-center p-2  text-gray-800 T rounded-md z-50 bg-gray-200 ml-3"
             >
                 <p className="font-bold text-xs">MENU</p>
                 <CSSTransition
