@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="flex parent">
             <div className="rounded-full">
               <Image
-                src="/assets/avatar1.jfif"
+                src="/assets/avatar1.jpg"
                 alt="avatar"
                 width={35}
                 height={35}
@@ -37,7 +37,7 @@ const Hero = () => {
             </div>
             <div className=" rounded-full">
               <Image
-                src="/assets/avatar2.jfif"
+                src="/assets/avatar2.jpeg"
                 alt="avatar"
                 width={35}
                 height={35}
@@ -47,7 +47,7 @@ const Hero = () => {
             </div>
             <div className="rounded-full">
               <Image
-                src="/assets/avatar3.jfif"
+                src="/assets/avatar3.jpg"
                 alt="avatar"
                 width={35}
                 height={35}
