@@ -42,9 +42,9 @@ const ButtonMenu = () => {
                     (
 
                         <motion.div
-                            initial={{ translateY: -800 }}
-                            animate={{ translateY: 0 }}
-                            exit={{ translateY: -800 }}
+                            initial={{ translateY: 0, opacity : 0}}
+                            animate={{ translateY: 0, opacity : 100 }}
+                            exit={{ translateY: -800 , opacity : 100}}
                             transition={{ duration: 0.8}}
                             className="absolute top-[3.2rem] left-0  w-[100%] h-screen bg-green-primary  z-50"
                         >
@@ -61,7 +61,7 @@ const ButtonMenu = () => {
                                     </div>
 
                                     <button className="p-2 border-2 bg-base-secondary border-green-primary text-green-primary rounded-lg
-        transition ease-in-out hover:bg-green-primary hover:text-white">Contactez-nous</button>
+                                        transition ease-in-out hover:bg-green-primary hover:text-white">Contactez-nous</button>
                                 </div>
 
                             </>
