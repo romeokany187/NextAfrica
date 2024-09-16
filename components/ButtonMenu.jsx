@@ -42,11 +42,11 @@ const ButtonMenu = () => {
                     (
 
                         <motion.div
-                            initial={{ translateX: -500 }}
-                            animate={{ translateX: 0 }}
-                            exit={{ translateX: -500 }}
+                            initial={{ translateY: -800 }}
+                            animate={{ translateY: 0 }}
+                            exit={{ translateY: -800 }}
                             transition={{ duration: 1 }}
-                            className="absolute top-[3.2rem] left-0  w-[50%] h-screen bg-green-primary  z-50"
+                            className="absolute top-[3.2rem] left-0  w-[100%] h-screen bg-green-primary  z-50"
                         >
                             <>
                                 <div className="z-0 h-[90%] w-full px-8 py-8 flex flex-col justify-between  mt-auto">
