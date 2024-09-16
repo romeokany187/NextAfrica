@@ -49,10 +49,10 @@ const ButtonMenu = () => {
                             className="absolute top-[3.2rem] left-0  w-[100%] h-screen bg-green-primary  z-50"
                         >
                             <>
-                                <div className="z-0 h-[90%] w-full px-8 py-8 flex flex-col justify-between  mt-auto">
+                                <div className="z-0 h-[90%] w-full px-8 py-8 flex flex-col justify-center items-center  gap-[10rem] mt-auto">
 
                                     <div className="">
-                                        <div className="flex flex-col gap-[2.5rem] font-bold text-base-secondary justify-center items-center">
+                                        <div className="flex flex-col gap-[1.5rem] font-bold text-base-secondary justify-center items-center">
                                             <Link href="/">Accueil</Link>
                                             <Link href="/athlete">Athlètes</Link>
                                             <Link href="/club">Clubs</Link>
