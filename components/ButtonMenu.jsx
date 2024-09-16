@@ -44,7 +44,7 @@ const ButtonMenu = () => {
                         <motion.div
                             initial={{ translateY: 0, opacity : 0}}
                             animate={{ translateY: 0, opacity : 100 }}
-                            exit={{ translateY: -800 , opacity : 100}}
+                            exit={{ translateY: 0 , opacity : 0}}
                             transition={{ duration: 0.8}}
                             className="absolute top-[3.2rem] left-0  w-[100%] h-screen bg-green-primary  z-50"
                         >
