@@ -81,15 +81,17 @@ const Hero = () => {
         <div className="flex lg:flex-row md:flex-row flex-col gap-4 justify-center items-center">
           <button
             className="lg:p-3 px-12 py-3 text-sm font-medium text-base-secondary border border-green-primary 
-          bg-green-primary rounded-lg transition hover:bg-base-secondary hover:text-green-primary"
+          bg-green-primary rounded-lg transition hover:bg-base-secondary hover:text-green-primary flex justify-center items-center gap-3  "
           >
             Nous sommes
+            <Image src="/assets/fleche.svg" width={20} height={20}></Image>
           </button>
           <button
             className="lg:p-3 px-12 py-3 text-sm font-medium text-green-primary border border-green-primary 
-          bg-base-primary rounded-lg transition hover:bg-green-primary hover:text-base-primary"
+          bg-base-primary rounded-lg transition hover:bg-green-primary hover:text-base-primary flex justify-center items-center gap-3 "
           >
             Evénements
+            <Image src="/assets/flecheoth.svg" width={20} height={20}></Image>
           </button>
         </div>
       </div>
