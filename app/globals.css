@@ -8,4 +8,7 @@
 .child-no-padding{
     padding: 0 !important;
 }
+.box {
+    box-shadow: 13px 13px 23px rgba(243, 243, 243, 0.8); /* Ombre floue noire avec 50% d'opacité */
+  }
 

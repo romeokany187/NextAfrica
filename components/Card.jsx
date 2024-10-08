@@ -5,9 +5,9 @@ import React from "react";
 const Card = ({ img, head, sub, href, alt }) => {
   return (
     <div
-      className=" lg:w-[15rem] w-[22rem] h-[30rem] p-3 PX"
+      className=" lg:w-[15rem] w-[22rem] lg:h-[20rem] h-[30rem] p-3"
     >
-      <div className="p-8 flex flex-col gap-8 text-center justify-center items-center rounded-xl shadow-md h-[90%] ">
+      <div className="p-8 flex flex-col lg:gap-3 gap-8 text-center justify-center items-center rounded-xl box lg:h-[80%] h-[90%] ">
         <Link href={href} className="">
           <Image
             src={img}
