@@ -20,7 +20,7 @@ const Offers = () => {
         <p className="text-xl text-green-primary font-medium">
           CE QUE NOUS FAISONS
         </p>
-        <h1 className="text-5xl font-extrabold text-gray-800">
+        <h1 className="lg:text-5xl text-3xl font-extrabold text-gray-800">
           Nous offrons comme ouverture
         </h1>
         <p>
