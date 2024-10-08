@@ -5,7 +5,7 @@ import React from "react";
 const Card = ({ img, head, sub, href, alt }) => {
   return (
     <div
-      className=" lg:w-[15rem] w-[20rem] h-[20rem] p-3"
+      className=" lg:w-[15rem] w-[22rem] h-[20rem] p-3"
     >
       <div className="p-6 flex flex-col gap-3 text-center justify-center items-center rounded-xl shadow-md h-[80%] ">
         <Link href={href} className="">
