@@ -51,25 +51,25 @@ const Offers = () => {
             // when window width is >= 640px
             500: {
               slidesPerView: 1,
-              spaceBetween: 0,
+              spaceBetween: 50,
             },
             640: {
                 slidesPerView: 2,
-                spaceBetween: 0,
+                spaceBetween: 50,
             },
             // when window width is >= 768px
             768: {
                 slidesPerView: 2,
-                spaceBetween: 0,
+                spaceBetween: 50,
             },
             // when window width is >= 1024px
             1024: {
                 slidesPerView: 2,
-                spaceBetween: 0,
+                spaceBetween: 50,
             },
             1244: {
                 slidesPerView: 3,
-                spaceBetween: 0,
+                spaceBetween: 50,
             },
         }}
           style={{with:"100%", marginBottom: "20px" }}
