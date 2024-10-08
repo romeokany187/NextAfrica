@@ -16,7 +16,7 @@ import "swiper/css/autoplay";
 const Offers = () => {
   return (
     <div className="lg:p-6 mt-14">
-      <div className="flex flex-col gap-4 justify-center items-center text-center">
+      <div className="flex flex-col gap-4 justify-center lg:items-center md:items-center items-start lg:text-center md:text-center text-left">
         <p className="text-xl text-green-primary font-medium">
           CE QUE NOUS FAISONS
         </p>

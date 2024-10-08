@@ -3,8 +3,8 @@ import React from "react";
 
 const Partenaire = () => {
   return (
-    <div className="lg:flex md:flex justify-around items-center grid grid-cols-2 px-[5rem] mb-8 lg:h-[30vh] h-[50vh] ">
-      <div className="">
+    <div className="lg:flex md:flex justify-around items-center grid grid-cols-2 px-[0rem] mb-8 lg:h-[30vh] h-[50vh] ml-8 md:ml-0 lg:ml-0 ">
+      <div className=""> 
         <Image
           src="/images/SOSO_5.png"
           alt="partenaires"
