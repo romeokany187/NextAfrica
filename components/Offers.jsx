@@ -17,7 +17,7 @@ const Offers = () => {
   return (
     <div className="lg:p-6 mt-14">
       <div className="flex flex-col gap-4 justify-center lg:items-center md:items-center items-start lg:text-center md:text-center text-left">
-        <p className="text-xl text-green-primary font-medium">
+        <p className="text-sm text-green-primary font-medium">
           CE QUE NOUS FAISONS
         </p>
         <h1 className="lg:text-5xl text-3xl font-extrabold text-gray-800">

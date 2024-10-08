@@ -10,6 +10,7 @@ const Partenaire = () => {
           alt="partenaires"
           width={150}
           height={150}
+          className="sm:w-[5rem] "
         ></Image>
       </div>
       <div className="">
