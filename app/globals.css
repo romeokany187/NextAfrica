@@ -9,6 +9,6 @@
     padding: 0 !important;
 }
 .box {
-    box-shadow: 5px 5px 10px rgba(179, 179, 179, 0.8); /* Ombre floue noire avec 50% d'opacité */
+    box-shadow: 5px 5px 10px rgba(179, 179, 179, 0.5); /* Ombre floue noire avec 50% d'opacité */
   }
 
