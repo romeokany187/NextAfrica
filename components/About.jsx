@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="flex lg:flex-row flex-col justify-between items-center gap-[2rem] mt-8 lg:mb-20 mb-12">
       <div className="flex flex-col gap-5  ">
-        <p className="text-green-primary lg:text-xl sm:text-sm font-medium">Apropos de nous</p>
+        <p className="text-green-primary lg:text-xl sm:text-sm font-medium uppercase">Apropos de nous</p>
         <div className="xl:text-4xl text-2xl font-extrabold">
           Une entreprise th t's bluiding ahealtier world
         </div>
