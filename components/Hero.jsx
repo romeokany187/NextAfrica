@@ -92,7 +92,7 @@ const Hero = () => {
               ></Image>
           </button>
           <button
-            className="lg:p-3 px-12 py-3 text-sm font-medium text-green-primary border border-green-primary 
+            className="lg:p-3 px-[3.3rem] py-3 text-sm font-medium text-green-primary border border-green-primary 
           bg-base-primary rounded-lg transition hover:bg-green-primary hover:text-base-primary flex justify-center items-center gap-3 "
           >
             Evénements
