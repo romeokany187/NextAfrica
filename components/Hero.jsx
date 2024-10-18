@@ -20,10 +20,10 @@ const Hero = () => {
           </p>
         </div>
         <div
-          className="z-0 lg:top-[60%]  xl:top-[60%] lg:right-[10%]  lg:absolute relative flex flex-col gap-1 p-2 bg-base-secondary
+          className="z-0 lg:top-[60%]  xl:top-[60%] lg:right-[10%]  lg:absolute relative flex flex-col justify-center items-center  gap-1 lg:p-2 px-8 py-3 bg-base-secondary
          bg-opacity-90 rounded-lg"
         >
-          <h1 className="text-sm font-bold text-gray-800">250k Temoignages</h1>
+          <h1 className="text-[0.7rem] font-bold text-gray-800">250k Temoignages</h1>
           <div className="flex parent">
             <div className="rounded-full">
               <Image
