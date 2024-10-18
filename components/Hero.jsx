@@ -97,7 +97,7 @@ const Hero = () => {
           >
             Evénements
             <Image
-                src="/assets/fleche.svg"
+                src="/assets/flecheoth.svg"
                 alt="avatar"
                 width={15}
                 height={15}
