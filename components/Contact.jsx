@@ -7,11 +7,12 @@ const Contact = () => {
       <div className="bg-base-secondary p-10 rounded-2xl flex flex-col justify-center items-center space-y-4">
         <div className="relative">
           <Image
-            src="/assets/mail-annimation.gif"
+            src="/assets/message.gif"
             alt="mail"
             width={200}
             height={200}
             unoptimized
+            className="rounded-full"
           ></Image>
          
         </div>
