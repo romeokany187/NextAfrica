@@ -21,7 +21,7 @@ const Agenda = () => {
           <p>Trouver une discipline </p>
         </div>
         <div className="flex justify-center items-center gap-4">
-          <div className="self-start px-3 py-[0.1rem] border border-green-primary text-white bg-green-primary rounded-lg">
+          <div className="self-start px-[0.66rem] py-[0.1rem] border border-green-primary text-white bg-green-primary rounded-lg">
             -
           </div>
           <div className="flex flex-col justify-center items-center gap-4">
