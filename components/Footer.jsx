@@ -25,6 +25,16 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col space-y-4">
+        <p className="text-sm  font-bold">COMPANY</p>
+        <div className="flex flex-col space-y-2  justify-between items-start text-sm">
+          <p>Notre équipe</p>
+          <p>Nos partenaires</p>
+          <p>FAQ</p>
+          <p>Blog</p>
+        </div>
+      </div>
+      
+      <div className="flex flex-col space-y-4">
         <p className="text-sm  font-bold">NOS MEDIAS SOCIAUX</p>
         <div className="flex flex-col space-y-2  justify-between items-start text-sm">
           <div className="flex gap-3">
@@ -83,18 +93,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      <div className="flex flex-col space-y-4">
-        <p className="text-sm  font-bold">COMPANY</p>
-        <div className="flex flex-col space-y-2  justify-between items-start text-sm">
-          <p>Notre équipe</p>
-          <p>Nos partenaires</p>
-          <p>FAQ</p>
-          <p>Blog</p>
-        </div>
-      </div>
-      
-      
     </div>
   );
 };
