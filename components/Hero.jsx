@@ -23,9 +23,9 @@ const Hero = () => {
           className="z-0 lg:top-[60%]  xl:top-[60%] lg:right-[10%]  lg:absolute relative flex flex-col justify-center items-center  gap-1 lg:p-2 px-4 py-[0.4rem] bg-base-secondary
          bg-opacity-90 rounded-lg"
         >
-          <h1 className="text-[0.7rem] font-bold text-gray-800">250k Temoignages</h1>
-          <div className="flex parent">
-            <div className="rounded-full">
+          <h1 className="text-[0.7rem] font-bold text-gray-800 ">250k Temoignages</h1>
+          <div className="flex parent justify-center items-center" >
+            <div className="rounded-full w-[25%] h-[100%] ">
               <Image
                 src="/assets/avatar1.jpg"
                 alt="avatar"
@@ -35,7 +35,7 @@ const Hero = () => {
               rounded-full"
               ></Image>
             </div>
-            <div className=" rounded-full">
+            <div className=" rounded-full w-[25%] h-[100%] ">
               <Image
                 src="/assets/avatar2.jpeg"
                 alt="avatar"
@@ -45,7 +45,7 @@ const Hero = () => {
               rounded-full "
               ></Image>
             </div>
-            <div className="rounded-full">
+            <div className="rounded-full w-[25%] h-[100%] ">
               <Image
                 src="/assets/avatar3.jpg"
                 alt="avatar"
@@ -55,7 +55,7 @@ const Hero = () => {
               rounded-full"
               ></Image>
             </div>
-            <div className="rounded-full cursor-pointer bg-[#00008B] ">
+            <div className="rounded-full cursor-pointer bg-[#00008B] w-[25%] h-[100%]  ">
               <Image
                 src="/assets/plus.svg"
                 alt="avatar"
