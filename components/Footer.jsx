@@ -33,16 +33,8 @@ const Footer = () => {
           <p>Blog</p>
         </div>
       </div>
+      
       <div className="flex flex-col space-y-4">
-        <p className="text-sm  font-bold">NOS SUPPORT</p>
-        <div className="flex flex-col space-y-2  justify-between items-start text-sm">
-          <p>Compte</p>
-          <p>Feedback</p>
-          <p>Contactez-nous</p>
-          <p>Accessibilités</p>
-        </div>
-      </div>
-      <div className="flex flex-col space-y-4 col-span-full">
         <p className="text-sm  font-bold">NOS MEDIAS SOCIAUX</p>
         <div className="flex flex-col space-y-2  justify-between items-start text-sm">
           <div className="flex gap-3">
