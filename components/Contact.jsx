@@ -7,12 +7,13 @@ const Contact = () => {
       <div className="bg-base-secondary p-10 rounded-2xl flex flex-col justify-center items-center space-y-4">
         <div className="relative">
           <Image
-            src="/assets/mail.svg"
+            src="/assets/mail-annimation.gif"
             alt="mail"
-            width={100}
-            height={100}
+            width={200}
+            height={200}
+            unoptimized
           ></Image>
-          <p className="top-0 right-0 absolute px-3 py-1 rounded-full bg-yellow-600 border border-[#47437a] text-white">1</p>
+         
         </div>
 
         <p className="lg:text-4xl text-xl font-extrabold  text-center">
