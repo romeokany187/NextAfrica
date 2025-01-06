@@ -4,7 +4,7 @@ import React from "react";
 const Agenda = () => {
   return (
     <div className="flex lg:flex-row flex-col justify-between lg:gap-[5rem] gap-5 lg:mt-[10rem] mt-4 mb-8">
-      <div className="">
+      <div className=" ">
         <Image src="/images/checklist@2x.png" width={1000} height={1000} className="w-full"></Image>
       </div>
       <div className="flex flex-col justify-start items-start space-y-5">
