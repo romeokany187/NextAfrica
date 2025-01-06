@@ -16,6 +16,7 @@ const Navbar = () => {
         <Link href="/athlete">Athlètes</Link>
         <Link href="/contact">Clubs</Link>
         <Link href="/count">Compte</Link>
+        <Link href="/count">Compte</Link>
       </div>
       <div className="lg:hidden flex">
         <LanguageSwitcher />
