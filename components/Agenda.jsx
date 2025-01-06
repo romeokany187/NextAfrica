@@ -4,10 +4,10 @@ import React from "react";
 const Agenda = () => {
   return (
     <div className="flex lg:flex-row flex-col justify-between lg:gap-[5rem] gap-5 lg:mt-[10rem] mt-4 mb-8">
-      <div className="w-[50%] ">
+      <div className="lg:w-[50%] w-full">
         <Image src="/images/checklist@2x.png" width={800} height={800} className="w-full"></Image>
       </div>
-      <div className="flex flex-col justify-start items-start space-y-5 w-[50%] ">
+      <div className="flex flex-col justify-start items-start space-y-5 lg:w-[50%] w-full ">
         <p className="text-sm text-green-primary font-semibold">
           TROUVEZ NOS PROGRAMMES
         </p>
